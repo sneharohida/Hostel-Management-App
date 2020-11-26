@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1038542112113",
+    "firebase_url": "https://hostel-a662e.firebaseio.com",
+    "project_id": "hostel-a662e",
+    "storage_bucket": "hostel-a662e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038542112113:android:239dc5100b0acb0781a2d0",
+        "android_client_info": {
+          "package_name": "com.example.hostel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038542112113-ped5v18q892dtpfasd86i3q7elfp89s7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hostel",
+            "certificate_hash": "8254b4276bf895d551299ae9647fe045c251dec8"
+          }
+        },
+        {
+          "client_id": "1038542112113-95s1k8m4cclnh44f87g5kq65mfaajsdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRGVvkJ_euM1XXsO5K_dot1uyrkvn4yEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038542112113-95s1k8m4cclnh44f87g5kq65mfaajsdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038542112113:android:7158985cf5535a2581a2d0",
+        "android_client_info": {
+          "package_name": "com.example.s3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038542112113-95s1k8m4cclnh44f87g5kq65mfaajsdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRGVvkJ_euM1XXsO5K_dot1uyrkvn4yEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038542112113-95s1k8m4cclnh44f87g5kq65mfaajsdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

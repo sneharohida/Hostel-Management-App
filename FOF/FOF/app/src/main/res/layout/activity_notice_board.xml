@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticeBoard">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/blue"
+            >
+
+            <ImageView
+                android:id="@+id/b"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notice Board"
+                android:textSize="32dp"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="18sp"
+                />
+            <ImageView
+                android:layout_width="45dp"
+                android:id="@+id/r"
+                android:layout_height="35dp"
+                android:layout_marginTop="28dp"
+                android:src="@drawable/right"
+
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_page"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/vie_bg"
+            />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="140dp"
+    android:padding="10dp">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:scrollbars="vertical"/>
+</LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
